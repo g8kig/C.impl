@@ -198,7 +198,7 @@
 
 #define FF_MIN_SS       128
 #ifndef FF_MAX_SS
-#error "Specify FF_MAX_SS for the platform"
+#define FF_MAX_SS       512
 #endif
 //#define FF_MAX_SS       2048
 /* This set of options configures the range of sector size to be supported. (512,

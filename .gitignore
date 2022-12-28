@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+Platform/generic/_devcpp/bin/ifs.dat
+Platform/generic/_devcpp/Makefile.win
+Platform/generic/_devcpp/RIDE.layout

@@ -12,7 +12,7 @@ CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"
 BIN      = bin/RIDE.exe
 CXXFLAGS = $(CXXINCS) -ansi -fno-asm -m32 -std=c99 -Wall -Wextra -Wfatal-errors -pg -g3
 CFLAGS   = $(INCS) -ansi -fno-asm -m32 -std=c99 -Wall -Wextra -Wfatal-errors -pg -g3 -DMEMORY_SIZE_KB=16 -DCIMPL
-DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\DevCpp.exe INTERNAL_DEL
 
 .PHONY: all all-before all-after clean clean-custom
 
